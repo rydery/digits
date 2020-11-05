@@ -39,6 +39,7 @@ class ListContacts extends React.Component {
   /** Render the page once subscriptions have been received. */
   renderPage() {
     return (
+        /* error somewhere here */
         <Container>
           <Header as="h2" textAlign="center" inverted>List Contacts</Header>
           <Card.group>
