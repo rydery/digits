@@ -42,9 +42,9 @@ class ListContacts extends React.Component {
         /* error somewhere here */
         <Container>
           <Header as="h2" textAlign="center" inverted>List Contacts</Header>
-          <Card.group>
+          <Card.Group>
             {this.contacts.map((contact, index) => <Contact key={index} contact={contact}/>)}
-          </Card.group>
+          </Card.Group>
         </Container>
     );
   }
