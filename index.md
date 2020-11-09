@@ -68,12 +68,12 @@ I20180227-13:33:02.744(-10)?   Adding: Boogie Board (admin@foo.com)
 ```
 
 
-### Note regarding "bcrypt warning":
+### Notes regarding "bcrypt warning":
 
 You will also get the following message when you run this application:
 
 ```
-Note: you are using a pure-JavaScript implementation of bcrypt.
+Notes: you are using a pure-JavaScript implementation of bcrypt.
 While this implementation will work correctly, it is known to be
 approximately three times slower than the native implementation.
 In order to use the native implementation instead, run
@@ -85,7 +85,7 @@ in the root directory of your application.
 
 On some operating systems (particularly Windows), installing bcrypt is much more difficult than implied by the above message. Bcrypt is only used in Meteor for password checking, so the performance implications are negligible until your site has very high traffic. You can safely ignore this warning without any problems during initial stages of development.
 
-### Note regarding "MongoError: not master and slaveOk=false":
+### Notes regarding "MongoError: not master and slaveOk=false":
 
 Intermittently, you may see the following error message in the console when the system starts up:
 
@@ -191,7 +191,7 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-after-login-page.png)
 
-You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
+You can now add new Stuff documents, and list the Stuff you have created. Notes you cannot see any Stuff created by other users.
 
 #### Add Stuff page
 
@@ -225,7 +225,7 @@ To provide a simple example of a "super power" for Admin users, the Admin page l
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/admin-list-stuff-page.png)
 
-Note that non-admin users cannot get to this page, even if they type in the URL by hand.
+Notes that non-admin users cannot get to this page, even if they type in the URL by hand.
 
 ### Collections
 
@@ -283,7 +283,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 ## Screencasts
 
-For more information about this system, please watch one or more of the following screencasts. Note that the current source code might differ slightly from the code in these screencasts, but the changes should be very minor.
+For more information about this system, please watch one or more of the following screencasts. Notes that the current source code might differ slightly from the code in these screencasts, but the changes should be very minor.
 
   * [Walkthrough of system user interface (5 min)](https://www.youtube.com/watch?v=shYgqco1AUs)
   * [Data and accounts structure and initialization (15 min)](https://www.youtube.com/watch?v=p9dvM6MdCGs)
