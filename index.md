@@ -116,13 +116,13 @@ You can now add new Stuff documents, and list the Stuff you have created. Note y
 
 ### Add Contacts page
 
-After logging in, here is the page that allows you to add new Contacts:
+After logging in, here is the page that allows you to add new contacts:
 
 <img src="doc/addcontact.png">
 
 ### List Contacts page
 
-After logging in, here is the page that allows you to list all the Contacts you have:
+After logging in, here is the page that allows you to list all the contacts you have:
 
 <img src="doc/listcontact.png">
 
@@ -142,7 +142,7 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 ### Admin page (list all users stuff)
 
-To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Contacts by all of the users:
+To provide a simple example of a "super power" for Admin users, the Admin page lists all of the contacts by all of the users:
 
 <img src="doc/admin.png">
 
